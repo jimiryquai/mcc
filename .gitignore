@@ -22,4 +22,15 @@ __pycache__/
 # Build output
 dist/
 build/
-*.log 
+*.log
+
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!wiki/
+!wiki/**/*
+
+# Even if they are in subdirectories
+!*/ 
